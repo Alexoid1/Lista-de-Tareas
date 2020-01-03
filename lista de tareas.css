@@ -1,0 +1,109 @@
+body {
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgba(250, 248, 246, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+    
+    
+}
+
+.encabezado{
+    background: linear-gradient(0deg, rgb(30, 170, 100),rgba(106, 241, 106, 0.842) );
+    text-align: center;
+    padding: 50px 0px 0px;
+    max-width: 900px;
+    width: 90%;
+    margin: auto;
+    
+    
+
+}
+#tareaInput{
+    margin-bottom: 30px;
+    padding:10px;
+    width: 75%;
+  
+
+}
+.error{
+    border:5px solid red;
+    color:red;
+
+}
+
+
+
+.boton{
+    color:#FAFAFA;
+    background:none;
+    border:1px solid forestgreen;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.formulario .boton:hover{
+    border: 1px solid #FAFAFA;
+
+
+}
+.tareas{
+    margin: auto;
+    text-align: left;
+    max-width: 800px;
+    width: 70%;
+
+}
+.lista li{
+    list-style: none;
+    
+    border-bottom: 1px solid rgb(68, 67, 67);
+    padding:20px 0px 10px;
+    
+    
+    
+}
+a{
+    text-decoration:none;
+    color:rgb(68, 67, 67);
+    font-weight: bold;
+    
+    
+
+}
+
+.lista li a:hover{
+    text-decoration: line-through;
+}
+
+.score{
+    
+    
+    
+    font-size: 18px;
+    color:white; 
+    max-width: 100%;   
+    
+}
+
+.sco{
+    
+    
+    margin:0;
+    background: black;
+    padding:10px;
+    
+     
+
+}
+
+.qw{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    
+
+
+}
+
