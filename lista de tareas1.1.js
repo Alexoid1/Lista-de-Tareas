@@ -110,7 +110,7 @@ function eliminarTarea(titulo){
 btn.addEventListener("click", submit);
 tarea.addEventListener('keydown', function(e){
     if(e.keyCode===13){
-        submit();
+        submit(e);
     }
 });
 tareainput.addEventListener("click", comprobarinpu);
